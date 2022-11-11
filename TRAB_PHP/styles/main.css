@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --cor1: rgb(140, 245, 245);
+    --cor2: rgb(231, 238, 225);
+}
+body {
+    background-color:rgb(236, 234, 222)
+}
+h2 {
+    color: red;
+    padding-bottom: 25px;
+    text-align: center;
+}
+h3 {
+    color: blue;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;  
+    justify-content: center;
+}
+.form {
+    width: fit-content;
+    padding: 10px 25px;
+    margin-top: 5%;
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    background-color: rgb(139, 231, 224);
+    box-shadow: 3px 3px 8px rgb(15, 2, 46);
+}
+input[type=text] {
+    margin: 10px;
+    font-size: 1em;
+    padding: 5px;
+    border: double;
+    border-radius: 5px;
+}
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    padding: 20px;
+    border: double;
+    border-radius: 40px;
+}
+.botao {
+    font-size: 1em;
+    padding: 8px;
+    border-radius: 5px;
+    border: double;
+    margin-left: 50%;
+    cursor: pointer;
+    color: white;
+    background-color:blue;
+    opacity: 0.9;
+    transition: 0.3ms;
+}
+.botao:hover {
+    opacity: 1;
+}

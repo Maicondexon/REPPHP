@@ -1,0 +1,32 @@
+header {
+   
+    width: 100%;
+    height: 190px;
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;   
+}
+h1,p {
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+h1 {
+    text-align: center;
+}
+#documento {
+    padding: 15px 20px;
+    width: 100vh;
+    background-color: #2297e6;
+    box-shadow: inset 1px 1px 10px 0px rgba(0, 0, 0, 0.326); 
+}
+#caixa {
+    width: auto;
+    padding: 10px 30px;
+    font-size: 1.1em;
+    background-color: white;
+
+    }
+#autor {
+    margin-left: 70%;
+}
